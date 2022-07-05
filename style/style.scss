@@ -62,6 +62,15 @@
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 body {
   font-family: 'Audiowide', 'DM Mono', 'Inter', monospace;
 
@@ -232,10 +241,14 @@ body {
 }
 
 .wave_nft {
+  width: 100%;
+  max-width: 1160px;
   display: flex;
   min-height: 545px;
-  padding: 0 40px;
+  // padding: 0 40px;
   box-sizing: border-box;
+  margin: 0 240px 0 40px;
+
 }
 
 .wave_nft-header-wrp {
@@ -315,7 +328,47 @@ body {
 
 .wave_nft-btn:active {
   background-color: #000;
-  ;
   color: #8DFD1B;
   transform: scale(.95);
+}
+
+.artists-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 113px 0 0 0;
+}
+
+.artists-header span {
+  display: block;
+  @extend %header1;
+}
+
+.artists-list {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 127px 240px 0 40px;
+  list-style-type: none;
+}
+
+.artist-item {
+  margin: 0 60px 60px 0;
+}
+
+.artist-item img {
+  display: block;
+}
+
+.artists>ul>li:nth-child(4) {
+  margin-right: 0;
+}
+
+.artist-item span {
+  display: block;
+  @extend %link-text;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0;
 }
