@@ -16,7 +16,36 @@
   font-weight: 400;
   font-style: normal;
 }
-.menu-item a {
+.banner-header {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wave_nft-header {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wave_nft-info-text, .banner-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.wave_nft-btn, .banner-btn, .menu-item a {
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
@@ -138,4 +167,137 @@ body {
   width: 36px;
   height: 36px;
   background-position: -216px -8px;
+}
+
+.banner {
+  width: 100%;
+  min-height: 653px;
+  background: url(../img/banner-img.png) no-repeat right;
+  padding: 128px 0 20px 72px;
+  box-sizing: border-box;
+}
+
+.banner-info-blk {
+  width: 100%;
+  max-width: 508px;
+}
+
+.banner-header {
+  width: 100%;
+  max-width: 484px;
+  margin: 0 0 43px 0;
+}
+
+.banner-text {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 0 132px 0;
+}
+
+.banner-btn {
+  width: 100%;
+  max-width: 205px;
+  display: block;
+  text-align: center;
+  padding: 17px 0 27px 0;
+  color: #000;
+  text-decoration: none;
+  background-color: #8DFD1B;
+  transition: all 0.2s ease-out;
+}
+
+.banner-btn:hover {
+  transform: scale(1.05);
+}
+
+.banner-btn:active {
+  color: #8DFD1B;
+  background-color: transparent;
+  border: 1px solid #8DFD1B;
+  transform: scale(0.95);
+}
+
+.wave_nft {
+  display: flex;
+  min-height: 545px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.wave_nft-header-wrp {
+  width: 100%;
+  max-width: 437px;
+  background: url(../img/wave-blue-img.png) no-repeat left bottom;
+}
+
+.wave_nft-header {
+  width: 100%;
+  max-width: 351px;
+  margin: 0 0 0 86px;
+}
+
+.wave_nft-header span {
+  color: #A8A8A8;
+}
+
+.wave_nft-info-header {
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+  margin: 0 0 27px 24px;
+  position: relative;
+}
+
+.wave_nft-info-header::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 124px;
+  background-color: #8DFD1B;
+  position: absolute;
+  top: 3px;
+  left: -22px;
+}
+
+.wave_nft-info-text {
+  margin: 0 0 18px 0;
+}
+
+.wave_nft > article > p:nth-child(3) {
+  font-size: 15px;
+}
+
+.wave_nft > article > p:nth-child(4) {
+  margin: 0 0 36px 0;
+}
+
+.wave_nft-info {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 0 0 163px;
+}
+
+.wave_nft-btn {
+  width: 100%;
+  max-width: 246px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #8DFD1B;
+  padding: 10px 0 16px;
+  transition: all 0.2s ease-out;
+}
+
+.wave_nft-btn:hover {
+  background-color: #8DFD1B;
+  color: #000;
+}
+
+.wave_nft-btn:active {
+  background-color: #000;
+  color: #8DFD1B;
+  transform: scale(0.95);
 }/*# sourceMappingURL=style.css.map */
