@@ -332,11 +332,15 @@ body {
   transform: scale(.95);
 }
 
+.artists {
+  margin: 113px 0 0 0;
+}
+
 .artists-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 113px 0 0 0;
+  // margin: 113px 0 0 0;
 }
 
 .artists-header span {
@@ -349,7 +353,7 @@ body {
   max-width: 1160px;
   display: flex;
   flex-wrap: wrap;
-  margin: 127px 240px 0 40px;
+  margin: 127px auto 0 40px;
   list-style-type: none;
 }
 
@@ -371,4 +375,108 @@ body {
   text-align: center;
   text-transform: capitalize;
   margin: 20px 0;
+}
+
+.story {
+  width: 100%;
+  max-width: 1160px;
+  margin: 238px auto 0 40px;
+}
+
+.story-header {
+  width: 100%;
+  @extend %header2;
+  text-align: center;
+  color: #A8A8A8;
+  margin: 0 0 61px 0;
+}
+
+.story-header span {
+  display: inline-block;
+  font-size: 37px;
+  color: #FFFFFF;
+}
+
+.story-wrp {
+  width: 100%;
+  display: flex;
+}
+
+.story-nav {
+  width: 100%;
+  max-width: 282px;
+  list-style-type: none;
+}
+
+.story-link a {
+  display: block;
+  @extend %link-text;
+  text-decoration: none;
+  color: #8DFD1B;
+  padding: 25px 28px 31px;
+  transition: all .2s ease-out;
+}
+
+.story-link a:hover {
+  background-color: #222222;
+}
+
+.story-link a:active {
+  transform: scale(.95);
+}
+
+.founders {
+  width: 100%;
+  max-width: 878px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 77px 0 0;
+  box-sizing: border-box;
+  background-color: #222222;
+}
+
+.founders-photo {
+  display: block;
+  width: 172px;
+  height: 253px;
+  padding: 60px 38px 0 60px;
+}
+
+.founders-info {
+  padding: 77px 0 0 0;
+}
+
+.founders-info-title {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+  margin: 0 0 27px 24px;
+  position: relative;
+}
+
+.founders-info-title::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 93px;
+  background-color: #8DFD1B;
+  position: absolute;
+  top: 1px;
+  left: -22px;
+}
+
+.founders-info-text {
+  @extend %main-text;
+  margin: 0 0 18px 0;
+}
+
+.guitar-girl {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 240px;
+  background-image: url(../img/figure-image.jpg);
+  margin: 120px 0 0 0;
 }
