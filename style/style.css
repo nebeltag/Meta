@@ -470,7 +470,7 @@ body {
 .roadmap {
   width: 100%;
   min-height: 1424px;
-  margin: 118px 0 238px 0;
+  margin: 118px 0 226px 0;
   padding: 0 0 42px 0;
   position: relative;
 }
@@ -673,4 +673,49 @@ body {
   background: url(../img/wave-purple-img.png) no-repeat;
   background-size: cover;
   margin: 4px 0 41px;
+}
+
+.partners {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 240px 244px 40px;
+}
+
+.partners-header {
+  width: 100%;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8DFD1B;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.partners-box {
+  width: 100%;
+  min-height: 120px;
+}
+
+.partners-box-top_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 60px 0;
+}
+
+.partners-box-bottom_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoholder {
+  width: 100%;
+  max-width: 322px;
+  min-height: 30px;
+  background: url(../img/logoholder.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
