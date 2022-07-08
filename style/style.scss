@@ -428,6 +428,7 @@ body {
 .founders {
   width: 100%;
   max-width: 878px;
+  min-height: 538px;
   display: flex;
   justify-content: flex-start;
   padding: 0 77px 0 0;
@@ -477,6 +478,7 @@ body {
   width: 100%;
   max-width: 1440px;
   min-height: 240px;
-  background-image: url(../img/figure-image.jpg);
+  background: url(../img/figure-image.jpg) no-repeat;
+  background-size: cover;
   margin: 120px 0 0 0;
 }

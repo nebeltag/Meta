@@ -4,23 +4,20 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: DM Mono;
   src: url(../fonts/DMMono-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Inter;
   src: url(../fonts/Inter-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
-
-.banner-header, .artists-header span {
-  font-family: 'Audiowide';
+.artists-header span, .banner-header {
+  font-family: "Audiowide";
   font-style: normal;
   font-weight: 400;
   font-size: 51px;
@@ -29,8 +26,8 @@
   color: #FFFFFF;
 }
 
-.wave_nft-header, .story-header {
-  font-family: 'Audiowide';
+.story-header, .wave_nft-header {
+  font-family: "Audiowide";
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -39,8 +36,8 @@
   color: #FFFFFF;
 }
 
-.banner-text, .wave_nft-info-text, .founders-info-text {
-  font-family: 'Inter';
+.founders-info-text, .wave_nft-info-text, .banner-text {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -48,8 +45,8 @@
   color: #FFFFFF;
 }
 
-.menu-item a, .banner-btn, .wave_nft-btn, .artist-item span, .story-link a {
-  font-family: 'DM Mono';
+.story-link a, .artist-item span, .wave_nft-btn, .banner-btn, .menu-item a {
+  font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -72,7 +69,7 @@ h6 {
 }
 
 body {
-  font-family: 'Audiowide', 'DM Mono', 'Inter', monospace;
+  font-family: "Audiowide", "DM Mono", "Inter", monospace;
 }
 
 .page-container {
@@ -91,26 +88,21 @@ body {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .logo {
   display: block;
   padding: 52px 0 16px 0;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .logo:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .logo:active {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 .page-header-nav {
@@ -122,42 +114,32 @@ body {
 
 .menu-list {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   list-style-type: none;
 }
 
 .menu-item a {
   text-decoration: none;
   display: block;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .menu-item a:hover {
   color: #8DFD1B;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .menu-item a:active {
   color: #A8A8A8;
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .icon-box {
   width: 100%;
   max-width: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0 0 0 auto;
   padding: 50px 0 14px 0;
 }
@@ -169,8 +151,7 @@ body {
 }
 
 .sprite:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .sprite-discord {
@@ -202,8 +183,7 @@ body {
   min-height: 653px;
   background: url(../img/banner-img.png) no-repeat right;
   padding: 128px 0 20px 72px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .banner-info-blk {
@@ -232,32 +212,26 @@ body {
   color: #000;
   text-decoration: none;
   background-color: #8DFD1B;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .banner-btn:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .banner-btn:active {
   color: #8DFD1B;
   background-color: transparent;
   border: 1px solid #8DFD1B;
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .wave_nft {
   width: 100%;
   max-width: 1160px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 545px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0 240px 0 40px;
 }
 
@@ -278,7 +252,7 @@ body {
 }
 
 .wave_nft-info-header {
-  font-family: 'DM Mono';
+  font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -325,8 +299,7 @@ body {
   text-align: center;
   border: 1px solid #8DFD1B;
   padding: 10px 0 16px;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .wave_nft-btn:hover {
@@ -337,8 +310,7 @@ body {
 .wave_nft-btn:active {
   background-color: #000;
   color: #8DFD1B;
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .artists {
@@ -347,12 +319,8 @@ body {
 
 .artists-header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .artists-header span {
@@ -362,11 +330,8 @@ body {
 .artists-list {
   width: 100%;
   max-width: 1160px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 127px auto 0 40px;
   list-style-type: none;
 }
@@ -411,8 +376,6 @@ body {
 
 .story-wrp {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -427,8 +390,7 @@ body {
   text-decoration: none;
   color: #8DFD1B;
   padding: 25px 28px 31px;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .story-link a:hover {
@@ -436,22 +398,17 @@ body {
 }
 
 .story-link a:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .founders {
   width: 100%;
   max-width: 878px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  min-height: 538px;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   padding: 0 77px 0 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #222222;
 }
 
@@ -467,7 +424,7 @@ body {
 }
 
 .founders-info-title {
-  font-family: 'DM Mono';
+  font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
@@ -496,7 +453,7 @@ body {
   width: 100%;
   max-width: 1440px;
   min-height: 240px;
-  background-image: url(../img/figure-image.jpg);
+  background: url(../img/figure-image.jpg) no-repeat;
+  background-size: cover;
   margin: 120px 0 0 0;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
