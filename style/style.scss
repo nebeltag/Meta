@@ -57,6 +57,15 @@
   color: #FFFFFF;
 }
 
+%roadmap-phase-info {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -481,4 +490,221 @@ body {
   background: url(../img/figure-image.jpg) no-repeat;
   background-size: cover;
   margin: 120px 0 0 0;
+}
+
+.roadmap {
+  width: 100%;
+  min-height: 1424px;
+  margin: 118px 0 238px 0;
+  padding: 0 0 42px 0;
+  position: relative;
+}
+
+// .roadmap {
+//   background-image: url(../img/circles.png);
+//   background-repeat: no-repeat;
+// }
+
+.background-circle1 {
+  width: 100%;
+  max-width: 670px;
+  min-height: 670px;
+  background-image: url(../img/circles.png);
+  background-size: cover;
+  position: absolute;
+  left: 24px;
+  top: -215px;
+}
+
+.background-circle2 {
+  width: 100%;
+  max-width: 670px;
+  min-height: 670px;
+  background-image: url(../img/circles.png);
+  background-size: cover;
+  position: absolute;
+  right: 24px;
+  top: 303px;
+}
+
+.background-circle3 {
+  width: 100%;
+  max-width: 670px;
+  min-height: 670px;
+  background-image: url(../img/circles.png);
+  background-size: cover;
+  position: absolute;
+  top: 1020px;
+  left: 24px;
+}
+
+.roadmap-header {
+  width: fit-content;
+  @extend %header2;
+  margin: 0 auto;
+}
+
+.roadmap-phase-list {
+  width: 100%;
+  max-width: 540px;
+  // min-height: 271px;
+  list-style-type: none;
+  margin: 106px auto 0;
+  position: absolute;
+  left: 450px;
+  z-index: 1;
+}
+
+.phase-list-item {
+  width: 100%;
+  background-color: #222222;
+}
+
+.phase1-header {
+  width: 100%;
+  display: flex;
+  padding: 13px;
+  box-sizing: border-box;
+  border: 1px solid #8DFD1B;
+}
+
+.phase1-number {
+  display: block;
+  width: 45px;
+  height: 45px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #8DFD1B;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.phase1-header-info {
+  width: 100%;
+  margin: 0 0 0 12px;
+}
+
+.phase1-status {
+  display: block;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8DFD1B;
+  padding: 3px 0 0 0;
+}
+
+.phase1-header-info-text {
+  display: block;
+  @extend %link-text;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.phase1-main_info {
+  width: 100%;
+  max-width: 540px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #8DFD1B;
+  padding: 25px 13px 0;
+  box-sizing: border-box;
+  border-top: none;
+}
+
+.phase1-main_info-block1 {
+  width: 100%;
+  margin: 0 0 12px 12px;
+}
+
+.phase1-main_info-block1 span {
+  display: block;
+  @extend %roadmap-phase-info;
+}
+
+.phase1-main_info-block1>span:nth-child(3) {
+  font-size: 12px;
+}
+
+.phase1-main_info-block2 {
+  width: 100%;
+  max-width: 298px;
+  @extend %roadmap-phase-info;
+  line-height: 26px;
+  margin: 0 0 30px 0;
+}
+
+.phase1-item-img {
+  width: 100%;
+  width: 129px;
+  height: 129px;
+  background: url(../img/wave-red-img.png) no-repeat;
+  background-size: cover;
+  margin: 4px 0 41px;
+}
+
+.vertical-line1 {
+  width: 100%;
+  max-width: 2px;
+  min-height: 40px;
+  margin: 45px auto 55px;
+}
+
+.vertical-line1 svg {
+  fill: #8DFD1B;
+}
+
+.phase2-number {
+  color: #8DFD1B;
+  background-color: transparent;
+  border: 1px solid #8DFD1B;
+  padding: 8px 13px;
+}
+
+.phase2-main_info-block2 {
+  width: 100%;
+  max-width: 298px;
+  display: block;
+  @extend %roadmap-phase-info;
+  line-height: 26px;
+  margin: 0 0 14px 0;
+  font-size: 12px;
+}
+
+.phase2-item-img {
+  width: 100%;
+  width: 129px;
+  height: 129px;
+  background: url(../img/wave-blue-img.png) no-repeat;
+  background-size: cover;
+  margin: 4px 0 41px;
+}
+
+.vertical-line2 {
+  margin: 54px auto 48px;
+}
+
+.phase3-discord {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #8DFD1B;
+}
+
+.phase3-item-img {
+  width: 100%;
+  width: 129px;
+  height: 129px;
+  background: url(../img/wave-purple-img.png) no-repeat;
+  background-size: cover;
+  margin: 4px 0 41px;
 }
