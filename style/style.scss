@@ -755,3 +755,70 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.questions {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 181px 0 99px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions-header {
+  width: 100%;
+  max-width: 360px;
+  @extend %header2;
+  background: url(../img/wave-red-img.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.questions-header span {
+  color: #A8A8A8;
+}
+
+.questions-box {
+  width: 100%;
+  max-width: 580px;
+  margin: 3px 0 54px 0;
+  padding: 24px 21px 0 31px;
+  box-sizing: border-box;
+  background-color: #222222;
+  list-style-type: none;
+}
+
+.questions-box-item {
+  width: 100%;
+}
+
+.question {
+  width: 100%;
+  @extend %link-text;
+  line-height: 24px;
+  margin: 0 0 26px 0;
+  position: relative;
+}
+
+.question::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 18px;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: 0px;
+  top: 3px;
+}
+
+.answer {
+  width: 100%;
+  max-width: 514px;
+  margin: 0 14px 29px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #C4C4C4;
+
+}
