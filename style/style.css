@@ -16,7 +16,17 @@
   font-weight: 400;
   font-style: normal;
 }
-.artists-header span, .banner-header {
+.team-title-item, .artists-header span {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.discord_section-title, .banner-header {
   font-family: "Audiowide";
   font-style: normal;
   font-weight: 400;
@@ -36,7 +46,7 @@
   color: #FFFFFF;
 }
 
-.founders-info-text, .wave_nft-info-text, .banner-text {
+.discord_section-text, .founders-info-text, .wave_nft-info-text, .banner-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -45,7 +55,7 @@
   color: #FFFFFF;
 }
 
-.question, .phase1-header-info-text, .story-link a, .artist-item span, .wave_nft-btn, .banner-btn, .menu-item a {
+.page-footer-link a, .discord_section-btn, .question, .phase1-header-info-text, .story-link a, .artist-item span, .wave_nft-btn, .banner-btn, .menu-item a {
   font-family: "DM Mono";
   font-style: normal;
   font-weight: 400;
@@ -157,6 +167,7 @@ body {
   background-image: url(../img/spritesheet.png);
   background-repeat: no-repeat;
   display: block;
+  transition: all 0.2s ease;
 }
 
 .sprite:hover {
@@ -723,7 +734,7 @@ body {
 .questions {
   width: 100%;
   max-width: 1160px;
-  margin: 0 181px 0 99px;
+  margin: 0 181px 108px 99px;
   display: flex;
   justify-content: space-between;
 }
@@ -782,4 +793,283 @@ body {
   font-size: 12px;
   line-height: 19px;
   color: #C4C4C4;
+}
+
+.team {
+  width: 100%;
+  overflow: hidden;
+}
+
+.team-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  margin: 0 0 129px -121px;
+}
+
+.team-title-item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 255px 0 0;
+}
+
+.team-list {
+  width: 100%;
+  max-width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 236px;
+  padding: 0 0 17px 0;
+  list-style-type: none;
+}
+
+.team-list-item {
+  width: 100%;
+  max-width: 320px;
+}
+
+.team_member-photo {
+  width: 100%;
+  margin: 0 0 19px 0;
+}
+
+.team_member-photo img {
+  width: 100%;
+  display: block;
+}
+
+.team_member-name {
+  width: 100%;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 18px 0;
+}
+
+.team_member-status {
+  width: 100%;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8DFD1B;
+  margin: 0 0 22px 0;
+}
+
+.team_member-social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 22px 0;
+}
+
+.sprite2 {
+  background-image: url(../img/spritesheet2.png);
+  background-repeat: no-repeat;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.sprite2-in {
+  width: 36px;
+  height: 36px;
+  background-position: -8px -8px;
+}
+
+.sprite2-twitter {
+  width: 36px;
+  height: 36px;
+  background-position: -60px -8px;
+}
+
+.sprite2:hover {
+  transform: scale(1.1);
+}
+
+.team-block {
+  margin: 0 12px 0 0;
+}
+
+.team_member-text {
+  widows: 100%;
+  max-width: 238px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.discord {
+  width: 100%;
+  max-width: 1167px;
+  padding: 146px 0 128px;
+  margin: 0 auto 118px;
+  background-image: url(../img/wave-purple-img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.discord-info {
+  width: 100%;
+  max-width: 483px;
+}
+
+.discord_section-title {
+  width: 100%;
+  margin: 0 0 32px 0;
+}
+
+.discord_section-title span {
+  color: #8DFD1B;
+}
+
+.discord_section-text {
+  width: 100%;
+  max-width: 345px;
+  margin: 0 0 35px 0;
+}
+
+.discord_section-btn {
+  width: 100%;
+  max-width: 213px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  background-color: #8DFD1B;
+  padding: 14px 31px 14px 61px;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.25s ease-out;
+}
+
+.discord_section-btn i {
+  position: absolute;
+  left: 32px;
+  top: 17px;
+}
+
+.discord_section-btn:hover {
+  color: #8DFD1B;
+  background-color: #000000;
+  outline: 1px solid #8DFD1B;
+}
+
+.discord_section-btn:active {
+  transform: scale(0.95);
+}
+
+.page-footer {
+  width: 100%;
+  max-width: 1440px;
+  background-color: #42006A;
+  padding: 100px 140px 120px;
+  box-sizing: border-box;
+}
+
+.page-footer-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.copy-rights {
+  width: 100%;
+  max-width: 208px;
+  min-height: 117px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3px 0 0 0;
+  margin: 0 64px 0 0;
+  transition: all 0.1s ease-out;
+}
+
+.copy-rights a {
+  display: block;
+}
+
+.copy-rights p {
+  width: 100%;
+  font-family: "DM Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.copy-rights a:hover {
+  transform: scale(1.05);
+}
+
+.copy-rights a:active {
+  transform: scale(0.98);
+}
+
+.page-footer-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-links-box {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+body > div > main > footer > div > nav > ul:nth-child(1) {
+  margin: 0 100px 0 0;
+}
+
+.page-footer-link a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 19px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-footer-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.page-footer-link:hover {
+  transform: scale(1.1);
+}
+
+.page-footer-link a:hover {
+  color: #8DFD1B;
+  transform: scale(1.1);
+}
+
+.page-footer-link:active {
+  transform: scale(0.95);
+}
+
+.page-footer-link a:active {
+  color: #A8A8A8;
+  transform: scale(0.95);
+}
+
+.footer-icon-box {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
