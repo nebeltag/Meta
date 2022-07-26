@@ -633,10 +633,7 @@ body {
   max-width: 2px;
   min-height: 40px;
   margin: 45px auto 55px;
-}
-
-.vertical-line1 svg {
-  fill: #8DFD1B;
+  background-color: #8DFD1B;
 }
 
 .phase2-number {
@@ -812,6 +809,7 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  display: block;
   margin: 0 255px 0 0;
 }
 

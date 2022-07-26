@@ -667,11 +667,12 @@ body {
   max-width: 2px;
   min-height: 40px;
   margin: 45px auto 55px;
+  background-color: #8DFD1B;
 }
 
-.vertical-line1 svg {
-  fill: #8DFD1B;
-}
+// .vertical-line1 svg {
+//   fill: #8DFD1B;
+// }
 
 .phase2-number {
   color: #8DFD1B;
@@ -845,6 +846,7 @@ body {
 
 .team-title-item {
   width: fit-content;
+  display: block;
   @extend %big_header;
   margin: 0 255px 0 0;
 }
